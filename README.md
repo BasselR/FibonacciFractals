@@ -5,9 +5,9 @@ A makefile has been provided that links all the necessary object files and outpu
 
 The makefile can be modified to change the n value (see legend below). However, caution should be taken to ensure that the output image's width and height are large enough to contain the fractal.
 
-Usage: ./fib n x y step width height filename
-
 To run the program, run the makefile by executing the command `make`, and then execute the fib script with parameters of your choice, for example: `./fib 9 10 10 5 100 100 fib9.bmp`
+
+Usage: ./fib n x y step width height filename
 
 Legend:
 - n: how many fibonacci words will be concatenated to form the fractal
