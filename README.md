@@ -1,13 +1,11 @@
 # FibonacciFractals
 This C program computes the nth Fibonacci fractal of your choice, then draws it and outputs the result in a bmp image file.
 
-A makefile has been provided that links all the necessary object files and outputs sample fibonacci fractal bmp files.
-
-The makefile can be modified to change the n value (see legend below). However, caution should be taken to ensure that the output image's width and height are large enough to contain the fractal.
-
-To run the program, run the makefile by executing the command `make`, and then execute the fib script with parameters of your choice, for example: `./fib 9 10 10 5 100 100 fib9.bmp`
+To run the program, execute the fib script with parameters of your choice, for example: `./fib 9 10 10 5 100 100 fib9.bmp`
 
 Usage: ./fib n x y step width height filename
+
+Caution should be taken to ensure that the output image's width and height are large enough to contain the fractal, or the program will terminate.
 
 Legend:
 - n: how many fibonacci words will be concatenated to form the fractal
@@ -18,7 +16,7 @@ Legend:
 - height: output image file's height (in pixels)
 - filename: output image file's filename
 
-Below is the provided makefile (also in the repository):
+Additionally provided is the makefile used to create the linux executable, shown below (also in the repository):
 
 ```
 CFLAGS=-Wall -O2 -ansi
